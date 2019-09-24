@@ -1,0 +1,2 @@
+gcc -static -Os -nostartfiles -fno-asynchronous-unwind-tables -o 'armhf/hello-world/hello' -D DOCKER_IMAGE='"hello-world"' -D DOCKER_GREETING="\"$(cat 'greetings/hello-world.txt')\"" -D DOCKER_ARCH='"armhf"' 'hello.c'
+cd armhf/hello-world/;./buildme

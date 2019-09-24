@@ -1,4 +1,4 @@
-TARGET_ARCH := amd64
+TARGET_ARCH := armhf
 C_TARGETS := $(addsuffix hello, $(wildcard $(TARGET_ARCH)/*/))
 
 CC := gcc
