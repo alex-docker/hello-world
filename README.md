@@ -12,6 +12,18 @@
   
   docker run alex2006hw/hello-world:armhf
 ```
+
+### Nvidia Jetson nano
+
+#### usage
+```
+  git clone https://github.com/alex-docker/hello-world.git
+  cd hello-world
+  ./build-arm64v8
+
+  docker run alex2006hw/hello-world:arm64v8
+  
+```
 --------------
 
 # https://github.com/docker-library/hello-world
